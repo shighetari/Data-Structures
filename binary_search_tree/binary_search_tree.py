@@ -74,6 +74,19 @@ class BSTNode:
         if self.left:
             self.left.for_each(fn)
 
+
+    # stack = []
+    # stack.append(self)
+
+    # while len(stack) > 0:
+    #         current_node = stack.pop()
+    #         fn(current_node.value)
+    #     if current_node.right:
+    #         stack.append(current_node)
+    #     if current_node.left:
+    #         stack.append(current_node)
+    
+
     # Part 2 -----------------------
 
     # Print all the values in order from low to high
